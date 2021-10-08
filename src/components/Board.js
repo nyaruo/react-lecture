@@ -11,8 +11,7 @@ const Board = ({ squares, onClick }) => {
         />
       );
     };
-  
-    // render() {
+
     return (
       <>
         <div className="board-row">
@@ -32,7 +31,6 @@ const Board = ({ squares, onClick }) => {
         </div>
       </>
     );
-    // }
   };
   
   export default Board;
